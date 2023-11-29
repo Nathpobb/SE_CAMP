@@ -1,11 +1,114 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
+<html>
     
-</body>
+        <h1>Workshop #HTML-FORM</h1>
+        <form action="#">
+            <table>
+                <tr>
+                    <td>ชื่อ</td>
+                    <td><input type="text"/></td>
+                </tr>
+                <tr>
+                    <td>นามสกุล</td>
+                    <td><input type="text"/></td>
+                </tr>
+                <tr>
+                    <td>วัน/เดือน/ปีเกิด</td>
+                    <td><input type="date" /></td>
+                </tr>
+                <tr>
+                    <td>อายุ</td>
+                    <td><input type="text"/></td>
+                </tr>
+                <tr>
+                    <td>เพศ</td>
+                    <td>
+                        <input id="men_a"
+                               type="radio"
+                               name="same_radio"/>
+                        <label for="men_a">ชาย</label>
+                        <input id="female_a"
+                                type="radio"
+                                name="same_radio" />
+                        <label for="female_a">หญิง</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        File
+                    </td>
+                    <td><input type="file"></td>
+                </tr>
+                
+                <tr>
+                    <td>ที่อยู่</td>
+                    <td><textarea rows="4"
+                    placeholder="กรุณาป้อนข้อมูล"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        สีที่ชอบ
+                    </td>
+                    <td>
+                        <select>
+                            <option
+                            value=""
+                            disabled
+                            selected>-</option>
+                            <option>สีม่วง</option>
+                            <option>สีคราม</option>
+                            <option>สีน้ำเงิน</option>
+                            <option>สีเขียว</option>
+                            <option>สีเหลือง</option>
+                            <option>สีแดง</option>
+                            <option>สีรุ้ง</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>แนวเพลงที่ชอบ</td>
+                    <td>
+                        <input id="song_a"
+                               type="radio"
+                               name="song_1"/>
+                        <label for="song_a">เพื่อชีวิต</label>
+                        <input id="song_b"
+                                type="radio"
+                                name="song_2" />
+                        <label for="song_2">ลูกทุ่ง</label>
+                        <input id="song_c"
+                                type="radio"
+                                name="song_3" />
+                        <label for="song_c">อื่นๆ</label>
+                        
+                    </td>
+                </tr>
+                <tr>
+            
+                    <td>
+                        <br>
+                        <input type="checkbox"
+                              name="allow_checkbox"> ยินยอมให้เก็บข้อมูล
+                        
+                    </td>
+                </tr>
+                
+                <tr>
+                    
+                    <td>
+                        <br>
+                        <input type="button"value="Reset">
+                        
+                    </td>
+                    <td>
+                        <br>
+                        &emsp;&emsp;&emsp;&emsp;&emsp; 
+                        <input type="button"value="Submit"></td>
+                </tr>
+                
+            </table>
+            <br><br><br>
+        </form>
+    </body>
 </html>
