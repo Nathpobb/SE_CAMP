@@ -1,19 +1,23 @@
-/* 
-comment
- */
-h1{
-    font-family: 'Sarabun', sans-serif;
-    font: size 16px; ;
-}
-body{
-    background-image:url(skybg.jpg) ;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-}
 .box{
     width: 400px;
     height: 400px;
-    color: rgb(255, 255,255) ;
-    background-color: rgb(88,90,88);
+    color: rgb(255, 255, 255);
+    background-color:rgb(88, 90, 88);
+    text-align: center;
+    border: 5px solid rgb(81, 81, 230);
+    padding-top: 10px;
+    margin: 50px 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box:hover{
+    background-color:rgb(1, 140, 179);
+    box-shadow: 34px 34px 26px rgb(1, 140, 179);
+
+}
+body{
+    background-image: url(skybg.jpg) ;
+    background-size: cover;
 }
