@@ -15,6 +15,9 @@
 .box:hover{
     background-color:rgb(1, 140, 179);
     box-shadow: 34px 34px 26px rgb(1, 140, 179);
+    background-image: url(giphy.gif) ;
+    background-size: cover;
+    transform: scale(1.2)
 
 }
 body{
