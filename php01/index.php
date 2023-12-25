@@ -2,9 +2,10 @@
 
 <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="mystyyle2.Css" />
+    <link rel="stylesheet" href="mystyle2.Css" />
 </head>
 
+<center>
 <body>
     <?php $multi_x = 2; $length_number = 24; ?>
     <h1>ตารางสูตรคูณแม่ <?php echo $multi_x ?></h1>
@@ -17,5 +18,5 @@
         
 ?>
 </body>
-
+    </center>
 </html> 
