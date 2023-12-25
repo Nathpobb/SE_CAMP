@@ -12,7 +12,7 @@
     <table>
         <?php
         for ($i = 1;$i<=$length_number;$i++){
-            echo "<tr><td>" .$multi_x.'X'.$i. '='.($multi_x*$i)."<br><br>\n";
+            echo "<tr><td>" .$multi_x.' X '.$i. ' = '.($multi_x*$i)."<br><br>\n";
         }
         
 ?>
