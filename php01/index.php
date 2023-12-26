@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <style>
         body {
-            background-image: url('bgyaya.jpg'); 
-            background-size: cover; 
+            background-image: url('bgbgbg.jpg'); 
+            background-size: 100%; 
             background-repeat: no-repeat; 
         }
         .scrollable {
@@ -26,6 +26,8 @@
 </head>
 <center>
 <body>
+    <br><br><br>
+    
     <?php $multi_x = 2; ?>
     <h1>ตารางสูตรคูณแม่ <?php echo $multi_x ?></h1>
     <div class="scrollable">
