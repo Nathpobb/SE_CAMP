@@ -2,19 +2,38 @@
 
 <head>
     <meta charset="utf-8">
+    <style>
+        table {
+            width: 50pxpx;
+            height: 50px;
+            overflow: scroll;
+        }
+    </style>
 </head>
 
 <body>
-    <?php $multi_x = 2; $length_number = 24; ?>
+    <?php $multi_x = 2; ?>
     <h1>ตารางสูตรคูณแม่ <?php echo $multi_x ?></h1>
 
     <table>
-        <?php
-        for ($i = 1;$i<=$length_number;$i++){
-            echo "<tr><td>" .$multi_x.'X'.$i. '='.($multi_x*$i)."<br><br>\n";
-        }
-        
-?>
+        <tbody>
+            
+            </tr>
+            <?php
+            for ($i = 1; $i <= 24; $i++) {
+                ?>
+                <tr>
+                    <td><?php echo $multi_x ?></td>
+                    <td>x</td>
+                    <td><?php echo $i ?></td>
+                    <td>=</td>
+                    <td><?php echo $multi_x * $i ?></td>
+                </tr>
+            <?php
+            }
+            ?>
+        </tbody>
+    </table>
 </body>
 
-</html> 
+</html>

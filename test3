@@ -1,0 +1,57 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="mystyle2.Css" />
+</head>
+
+<center>
+
+<body>
+<div class="box">
+    
+    <?php $multi_x = 2; $length_number = 24; ?>
+    <h1>ตารางสูตรคูณแม่ <?php echo $multi_x ?></h1>
+
+    <table>
+        <?php
+        for ($i = 1;$i<=$length_number;$i++){
+            echo "<tr><td>" .$multi_x.' X '.$i. ' = '.($multi_x*$i)."<br><br>\n";
+        }
+        
+?>
+</div>
+</body>
+
+    </center>
+</html>     
+
+
+
+
+
+
+<!-- สามารถปรับขนาดและรูปร่างหน้าตาที่บรรทัดด้านล่างนี้ได้ครับ -->
+<div style="width: 400px; height: 150px; overflow-y: scroll; scrollbar-arrow-color:blue; scrollbar-face-color: #e7e7e7; scrollbar-3dlight-color: #a0a0a0; scrollbar-darkshadow-color:#888888">
+
+<p align="left">
+ใส่ข้อความของคุณที่นี่<br>
+ใส่ข้อความของคุณที่นี่<br>
+ใส่ข้อความของคุณที่นี่<br>
+ใส่ข้อความของคุณที่นี่<br>
+ใส่ข้อความของคุณที่นี่<br>
+
+ใส่ข้อความของคุณที่นี่<br>
+ใส่ข้อความของคุณที่นี่<br>
+ใส่ข้อความของคุณที่นี่<br>
+ใส่ข้อความของคุณที่นี่<br>
+ใส่ข้อความของคุณที่นี่<br>
+
+ใส่ข้อความของคุณที่นี่<br>
+ใส่ข้อความของคุณที่นี่<br>
+ใส่ข้อความของคุณที่นี่<br>
+ใส่ข้อความของคุณที่นี่<br>
+ใส่ข้อความของคุณที่นี่<br>
+</p>
+
+</div>
