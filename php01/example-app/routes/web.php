@@ -14,6 +14,7 @@ use Illuminate\Support\Facades\Route;
 | be assigned to the "web" middleware group. Make something great!
 |
 */
+Route::resource('titles',C_titles::class);
 
 Route::get('/', function () {
     return view('welcome'); //welcome.blade.php
