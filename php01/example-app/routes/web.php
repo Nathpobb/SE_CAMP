@@ -3,6 +3,7 @@
 use App\Http\Controllers\MyController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\C_titles;
 
 /*
 |--------------------------------------------------------------------------
@@ -14,7 +15,7 @@ use Illuminate\Support\Facades\Route;
 | be assigned to the "web" middleware group. Make something great!
 |
 */
-Route::resource('titles',C_titles::class);
+
 
 Route::get('/', function () {
     return view('welcome'); //welcome.blade.php
@@ -38,3 +39,7 @@ Route::namespace('App\Http\Controllers')->group(function(){
 });
 
 Route::resource('/my-controller4', MyController::class);
+
+Route::resource('titles', C_titles::class);
+
+Route::get('/my-controller', [MyController::class, 'index']);

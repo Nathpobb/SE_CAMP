@@ -12,5 +12,5 @@ class M_titles extends Model
     protected $table = 'titles';
     protected $primaryKey = 'tit_id';
     public $incrementing = true;
-    public $timestamp = false;
+    public $timestamps = false;
 }
