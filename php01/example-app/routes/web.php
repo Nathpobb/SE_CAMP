@@ -43,3 +43,7 @@ Route::resource('/my-controller4', MyController::class);
 Route::resource('titles', C_titles::class);
 
 Route::get('/my-controller', [MyController::class, 'index']);
+
+Route::get('login',[MyAuth::class,'login_view']);
+Route::get('/register',[MyAuth::class,'register_view']);
+Route::get('/register',[MyAuth::class,'logout_process']);
