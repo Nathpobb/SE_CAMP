@@ -4,6 +4,13 @@
 
 @section('content')
     <!-- Content Header (Page header) -->
+     <!-- ... (existing code) ... -->
+     <div class="col-sm-6">
+        <div class="btn-group pull-right">
+            <button type="submit" class="btn btn-danger"><a href="{{ route('logout') }}">Logout</a></button>
+        </div>
+    </div>
+     <!-- ... (existing code) ... -->
     <div class="content-header">
         <div class="container-fluid">
             <div class="row mb-2">
@@ -112,4 +119,5 @@
         </div><!-- /.container-fluid -->
     </div>
     <!-- /.content -->
+
 @endsection
